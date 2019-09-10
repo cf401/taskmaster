@@ -48,14 +48,10 @@ you should connect to your production database, even in your development environ
 ## for basic functionality go to:
 - navigate on a browser to : http://taskmaster-dev.us-west-2.elasticbeanstalk.com/
 - You will see the empty nothingness of root.
-- navigate on a browser to : http://localhost:8080/profile
-- You will see your profile page -- you will see all posts for user.
-- navigate on a browser to : http://localhost:8080/profile/<number>
-- You will see a particular profile page and posts.
-- navigate on a browser to : http://localhost:8080/profiles
-- You will see all profiles. You can click to subscribe to any
-- navigate with the nav bar or browswer to : http://localhost:8080/feed
-- you will see all posts from each subscribed person. 
+- navigate on a browser to : the root plus : tasks/{id}/state
+- You will see your task and its state
+- navigate on a browser to : the root plus : /tasks
+- You can now post a new task
 
 ## Credits and Contributions
 @Bomibear
