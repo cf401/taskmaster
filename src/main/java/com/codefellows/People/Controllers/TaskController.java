@@ -17,12 +17,12 @@ public class TaskController {
     TaskRepository taskRepository;
 
     @GetMapping("/tasks")
-    public List getCustomers() {
+    public List getTasks() {
         return (List) taskRepository.findAll();
     }
 
     @PostMapping("/tasks")
-    public Task addNewUser (@RequestBody Task task) {
+    public Task addTask (@RequestBody Task task) {
         Task c = new Task();
         c.setName( task.getName() );
         c.setOld( task.getOld() );
