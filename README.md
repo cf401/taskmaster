@@ -18,14 +18,6 @@ public class Customer {
 ```
 - should look like this: [here](assets/createTable.png);
 
-## start with these command line commands
-```$xslt
-eb init
-eb create
-eb deploy
-```
-
-## but that probably didn't work alone, because of two things:
 
 ## adding creditinals on the command line in a config file
 
@@ -50,4 +42,12 @@ deploy:
 ```$xslt
 # app secret keys
 application.properties
+```
+
+
+## finally, run these command line commands
+```$xslt
+eb init
+eb create
+eb deploy
 ```
