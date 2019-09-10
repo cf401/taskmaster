@@ -8,3 +8,6 @@ build
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+# app secret keys
+application.properties
