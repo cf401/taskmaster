@@ -23,7 +23,7 @@ public class TaskController {
 
     @PostMapping("/tasks")
     public Task addTask (@RequestBody Task task) {
-        Task c = new Task(task.getName(), task.getStatus());
+        Task c = new Task(task.getTitle(), task.getStatus());
         taskRepository.save(c);
         return c;
     }
