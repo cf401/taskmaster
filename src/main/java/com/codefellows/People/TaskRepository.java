@@ -1,8 +1,12 @@
 package com.codefellows.People;
 
+import com.codefellows.People.Models.Task;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @SpringBootApplication
 public class TaskRepository {
@@ -13,10 +17,12 @@ public class TaskRepository {
 	public static void main(String[] args) {
 		SpringApplication.run(TaskRepository.class, args);
 
-		public void findTaskById(String id);
-		public static void findAll();
+
 
 		System.out.println("Onward and Upward!");
 	}
 
+	public Task findById(String id){};
+
+	public List<Task> findAll() {};
 }
