@@ -23,10 +23,13 @@ public class TaskController {
 
     @PostMapping("/tasks")
     public Task addTask (@RequestBody Task task) {
-        Task c = new Task();
-        c.setName( task.getName() );
-        c.setOld( task.getOld() );
+        Task c = new Task(task.getName(), task.getStatus());
         taskRepository.save(c);
         return c;
+    }
+
+    @PutMapping("/tasks/{id}/state")
+    public List putTask() {
+        return (List) taskRepository.findAll();
     }
 }

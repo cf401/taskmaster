@@ -16,14 +16,16 @@ public class Task {
 
     private String id;
     private String name;
-    private String pic;
-    private boolean old;
+    private String status;
 
 
     public Task() {}
 
-    public Task(String pic) {
-        this.pic = pic;
+    public Task(String id, String name) {
+        this.id = id;
+        this.name = name;
+        this.status = "Available";
+
     }
 
     @DynamoDBHashKey
@@ -45,23 +47,12 @@ public class Task {
         this.id = id;
     }
 
-
     @DynamoDBAttribute
-    public String getPic() {
-        return pic;
+    public String getStatus() {
+        return status;
     }
 
-    public void setPic(String pic) {
-        this.pic = pic;
+    public void setStatus(String status) {
+        this.status = status;
     }
-
-    @DynamoDBAttribute
-    public boolean getOld() {
-        return old;
-    }
-
-    public void setOld(boolean old) {
-        this.old = old;
-    }
-
 }
