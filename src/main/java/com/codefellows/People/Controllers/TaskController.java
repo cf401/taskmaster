@@ -16,12 +16,12 @@ public class TaskController {
     @Autowired
     TaskRepository taskRepository;
 
-    @GetMapping("/customers")
-    public List<Task> getCustomers() {
+    @GetMapping("/tasks")
+    public List getCustomers() {
         return (List) taskRepository.findAll();
     }
 
-    @PostMapping("/customers")
+    @PostMapping("/tasks")
     public Task addNewUser (@RequestBody Task task) {
         Task c = new Task();
         c.setName( task.getName() );

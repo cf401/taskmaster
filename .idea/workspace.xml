@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="555516c6-583d-4ab4-95ce-563a69a1b201" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codefellows/People/Controllers/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codefellows/People/Controllers/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codefellows/People/Models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codefellows/People/Models/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codefellows/People/PeopleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codefellows/People/TaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codefellows/People/Repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codefellows/People/Repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefellows/People/CustomerRepositoryIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefellows/People/TaskRepositoryIntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codefellows/People/PeopleApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codefellows/People/TaskRepositoryTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codefellows/People/Controllers/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codefellows/People/Controllers/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codefellows/People/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codefellows/People/TaskRepository.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
